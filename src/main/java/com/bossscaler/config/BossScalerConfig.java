@@ -70,7 +70,7 @@ public class BossScalerConfig {
     /** Seconds a scaled player must be outside scalingRadius before their HP contribution is removed (pre-combat only). */
     public int playerScaleTimeoutSeconds = 15;
 
-    // ── Spell resistance (optional: requires Spell Engine and Spell Power Attributes mod) ──
+    // ── Spell resistance (optional: requires Spell Power Attributes mod) ──
     public boolean spellResistanceEnabled   = true;
     public double  spellResistanceBase      = 10.0;
     public double  spellResistancePerPlayer = 5.0;
@@ -165,7 +165,7 @@ public class BossScalerConfig {
         }
     }
 
-    // ── TOML parser  ───────────────────────────
+    // ── TOML parser (minimal, covers our schema) ───────────────────────────
 
     private static BossScalerConfig parse(Path path) throws IOException {
         BossScalerConfig cfg = new BossScalerConfig();

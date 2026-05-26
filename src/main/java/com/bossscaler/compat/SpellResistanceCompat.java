@@ -23,7 +23,7 @@ import java.util.UUID;
 public class SpellResistanceCompat {
 
     /** Same UUID every time so we can find and replace our own modifier. */
-    private static final UUID MODIFIER_UUID = UUID.fromString("a3f2c1d0-beef-4b0s-8c3e-bossscaler001");
+    private static final UUID MODIFIER_UUID = UUID.fromString("a3f2c1d0-beef-4b0e-8c3e-b055ca1e0001");
     private static final String MODIFIER_NAME = "bossscaler:spell_resistance";
     private static final Identifier RESISTANCE_ID = new Identifier("spell_power", "resistance.generic");
 
