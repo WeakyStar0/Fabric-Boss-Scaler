@@ -101,4 +101,4 @@ With `shared_loot = false`, the vanilla single drop runs as normal.
 
 ## License
 
-MIT — see LICENSE for details.
+WNCSL1.0 — see LICENSE for details.
