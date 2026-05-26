@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "bossscaler",
+	"version": "${version}",
+	"name": "Boss Scaler",
+	"description": "Scales boss HP and distributes loot based on nearby players.",
+	"authors": [
+		"WeakyStar"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.bossscaler.BossScaler"
+		]
+	},
+	"mixins": [
+		"boss-scaler.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"spell_power": "*"
+	}
+}
